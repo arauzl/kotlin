@@ -72,7 +72,7 @@ products(app, upload);
 */
 ordersDeliverySocket(io);
 
-server.listen(3000, '192.168.100.100' || 'localhost', function() {
+server.listen(3000,  function() {
     console.log('Aplicacion de NodeJS ' + port + ' Iniciada...')
 });
 
